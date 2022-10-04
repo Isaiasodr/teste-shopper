@@ -1,0 +1,10 @@
+<div class="container">
+  {{#each products}}
+    <div class="card">
+      <img src="/img/products.png" alt="" />
+      <p>{{this.name}}</p>
+      <p id="price">R${{this.price}}</p>
+      <button>+ adicionar</button>
+    </div>
+  {{/each}}
+</div>
