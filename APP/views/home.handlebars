@@ -1,0 +1,18 @@
+<div class="navbar">
+  <h1>Shopper</h1>
+  <input type="text" placeholder="O que você procura?" />
+  <button>Buscar</button>
+  <img src="https://img.icons8.com/fluency/48/000000/shopping-cart.png" />
+  <p>0</p>
+</div>
+
+<div class="container">
+  {{#each products}}
+    <div class="card">
+      <img src="/img/products.png" alt="" />
+      <p>{{this.name}}</p>
+      <p id="price">R${{this.price}}</p>
+      <button value="{{this.id}}">+ adicionar</button>
+    </div>
+  {{/each}}
+</div>

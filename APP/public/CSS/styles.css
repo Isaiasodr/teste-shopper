@@ -109,3 +109,137 @@
     color: white;
     transition: .5s ease;
 }
+
+/* formulário */
+.form-container {
+    margin-left: 30%;
+    margin-top: 10%;
+}
+
+.form-control input {
+    width: 20%;
+    padding: 10px;
+}
+
+.form-control label {
+    display: block;
+    padding: 5px;
+}
+
+.table {
+    padding-top: 30px;
+}
+
+/* formulário de login */
+.form-login {
+    margin-top: 20vh;
+    color: white;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 320px;
+    background-color: rgb(7, 136, 132);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.login-container h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+.form-login-control {
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.form-login-control label {
+    display: block;
+}
+
+.form-login-control input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.login-container input[type='submit'] {
+    padding: 10px;
+    width: 185px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+
+
+.login-container p {
+    padding-top: 15px;
+}
+
+.login-container a {
+    text-decoration: none;
+}
+
+/* formulário de registro */
+.form-register {
+    margin-top: 15vh;
+    color: white;
+}
+
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 450px;
+    background-color: rgb(7, 136, 132);
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.register-container h1 {
+    padding-top: 20px;
+    color: white;
+}
+
+.form-register-control {
+    margin-top: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.form-register-control label {
+    display: block;
+}
+
+.form-register-control input {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.register-container input[type='submit'] {
+    padding: 10px;
+    width: 185px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 15px;
+    cursor: pointer;
+    background-color: white;
+}
+
+
+.register-container p {
+    padding-top: 15px;
+}
+
+.register-container a {
+    text-decoration: none;
+}
